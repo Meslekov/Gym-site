@@ -1,0 +1,183 @@
+.success,
+.register-sec {
+  position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-bottom: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 420px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  margin-top: 15%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.onSubmit-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+.onSubmit-form a,
+.onSubmit-form a:visited {
+  color: #fff;
+}
+
+.onSubmit-form input[type="text"],
+.onSubmit-form input[type="password"],
+.onSubmit-form button,
+.onSubmit-form textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.onSubmit-form label,
+.onSubmit-form button {
+  margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+.onSubmit-form button {
+  padding: 0.5rem;
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+}
+
+
+.manager-profile {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 37px;
+  margin-bottom: 20px;
+  transform: translate(-50%, -50%);
+  width: 37vw;
+  height: 87vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #242424;
+  border-radius: 10px;
+}
+
+.manager-profile h1 {
+  font-size: 28px;
+  color: #ccc;
+}
+
+.manager-profile h2 {
+  font-size: 21px;
+  color: #ccc;
+}
+
+.manager-profile .profile-pic {
+  width: 100px;
+  color: white;
+}
+
+.manager-profile .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.manager-profile label {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+.manager-profile input[type="text"],
+.manager-profile input[type="date"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.manager-profile input[type="number"] {
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.manager-profile select {
+  appearance: none;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.manager-profile button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.manager-profile button:hover {
+  background-color: #0056b3;
+}
