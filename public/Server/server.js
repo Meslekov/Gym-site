@@ -3,7 +3,7 @@ const mysql = require('mysql')
 const cors = require('cors')
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt')
-const salt = 9;
+const salt = 10;
 
 const app = express()
 app.use(cors());
