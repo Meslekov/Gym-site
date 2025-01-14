@@ -93,6 +93,9 @@ const response = await axios.post(auth_URL, {}, {
         <Link onClick={handleClick} className="navbar-profile">
           <img src={profile} alt="Ne" className="profile" />
         </Link>
+        <div className="menu-icon">
+           <img src={profile} alt="Ne" className="profile" />
+        </div>
       </div>
     </nav>
   );
